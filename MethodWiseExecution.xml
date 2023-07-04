@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/marinamonastirschi/IdeaProjects/syntaxSdetBatch16Basic1/src/test/java/class02/SoftAssertion.java">
+        <classes>
+            <class name="class01.Priority">
+                <methods>
+                    <include name="ATest"/>
+                    <include name="BTest"/>
+                    <exclude name="CTest"/>
+                    <include name="ABTest"/>
+                </methods>
+            </class>
+            <class name="class02.HardAssertion">
+                <methods>
+                    <include name="verifyTheErrorMessage"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

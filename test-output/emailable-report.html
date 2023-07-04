@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">testing</a></td><td class="numi">26</td><td class="numi">26</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">9.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">testing &#8212; failed</th></tr>
+<tr class="failedodd"><td>class01.DependsOnMethod</td><td><a href="#m1"><b>Login</b>  </a></td><td class="numi">1</td><td>1687481338797</td><td class="numi">1</td></tr>
+<tr><th colspan="5">testing &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>class01.DependsOnMethod</td><td><a href="#m2"><b>TestTheDashBoardPage</b>  </a></td><td class="numi">1</td><td>1687481338802</td><td class="numi">0</td></tr>
+<tr><th colspan="5">testing &#8212; passed</th></tr>
+<tr class="passedodd"><td>review01.DataDrivenTesting</td><td><a href="#m3"><b>randomTest</b>  </a></td><td class="numi">4</td><td>1687481338804</td><td class="numi">4</td></tr>
+<tr class="passedeven"><td>review01.enableDisable</td><td><a href="#m4"><b>funcA</b>  </a></td><td class="numi">1</td><td>1687481338795</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td>review01.Assertions</td><td><a href="#m5"><b>hardAssertions</b>  </a></td><td class="numi">1</td><td>1687481341428</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">class01.Priority</td><td><a href="#m6"><b>ABTest</b>  </a></td><td class="numi">1</td><td>1687481338808</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m7"><b>BTest</b>  </a></td><td class="numi">1</td><td>1687481338810</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>review01.Annotation</td><td><a href="#m8"><b>testA</b>  </a></td><td class="numi">1</td><td>1687481341432</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td>class01.EnableDisable</td><td><a href="#m9"><b>BTest</b>  </a></td><td class="numi">1</td><td>1687481338794</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>class01.TestNgExample</td><td><a href="#m10"><b>verifyThatUserCanLogin</b> (smoke) </a></td><td class="numi">1</td><td>1687481337199</td><td class="numi">1433</td></tr>
+<tr class="passedeven"><td>review01.DataDrivenTesting</td><td><a href="#m11"><b>randomTest</b>  </a></td><td class="numi">4</td><td>1687481338804</td><td class="numi">4</td></tr>
+<tr class="passedodd"><td>class01.Priority</td><td><a href="#m12"><b>CTest</b>  </a></td><td class="numi">1</td><td>1687481338809</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td>review01.Annotation</td><td><a href="#m13"><b>testB</b>  </a></td><td class="numi">1</td><td>1687481341433</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td>review01.priority</td><td><a href="#m14"><b>C</b>  </a></td><td class="numi">1</td><td>1687481341427</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td>review01.DataDrivenTesting</td><td><a href="#m15"><b>randomTest</b>  </a></td><td class="numi">4</td><td>1687481338804</td><td class="numi">4</td></tr>
+<tr class="passedodd"><td>review01.priority</td><td><a href="#m16"><b>A</b>  </a></td><td class="numi">1</td><td>1687481341428</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td>review01.enableDisable</td><td><a href="#m17"><b>funcB</b>  </a></td><td class="numi">1</td><td>1687481338797</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td>review01.annotation2</td><td><a href="#m18"><b>TestC</b>  </a></td><td class="numi">1</td><td>1687481338813</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td>review01.DataDrivenTesting</td><td><a href="#m19"><b>randomTest</b>  </a></td><td class="numi">4</td><td>1687481338804</td><td class="numi">4</td></tr>
+<tr class="passedodd"><td>class01.Assertions</td><td><a href="#m20"><b>VerifyTheErrorMessage</b>  </a></td><td class="numi">1</td><td>1687481341150</td><td class="numi">111</td></tr>
+<tr class="passedeven"><td>review01.annotation2</td><td><a href="#m21"><b>TestD</b>  </a></td><td class="numi">1</td><td>1687481338813</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td>review01.priority</td><td><a href="#m22"><b>B</b>  </a></td><td class="numi">1</td><td>1687481341426</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td>review01.Assertions</td><td><a href="#m23"><b>softAssert</b>  </a></td><td class="numi">1</td><td>1687481341429</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td rowspan="2">class01.Annotations</td><td><a href="#m24"><b>AFirstTestCase</b>  </a></td><td class="numi">1</td><td>1687481331988</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m25"><b>BSecondTestCase</b>  </a></td><td class="numi">1</td><td>1687481331995</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td>review01.priority</td><td><a href="#m26"><b>D</b>  </a></td><td class="numi">1</td><td>1687481341427</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>class01.TestNgExample</td><td><a href="#m27"><b>verifyPasswordBoxIsThere</b>  </a></td><td class="numi">1</td><td>1687481334963</td><td class="numi">29</td></tr>
+<tr class="passedeven"><td>class01.Priority</td><td><a href="#m28"><b>ATest</b> (smoke) </a></td><td class="numi">1</td><td>1687481338811</td><td class="numi">1</td></tr>
+</table>
+<h1>testing</h1>
+<h2 id="m1">class01.DependsOnMethod:Login</h2>
+<div>
+<div class="stacktrace">java.lang.ArithmeticException: / by zero
+	at class01.DependsOnMethod.Login(DependsOnMethod.java:8)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">class01.DependsOnMethod:TestTheDashBoardPage</h2>
+<div>
+<div class="stacktrace">java.lang.Throwable: Method class01.DependsOnMethod.TestTheDashBoardPage() on instance class01.DependsOnMethod@45dd4eda depends on not successfully finished methods 
+[class01.DependsOnMethod.Login() on instance class01.DependsOnMethod@45dd4eda]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">review01.DataDrivenTesting:randomTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>0</td>
+<td>0</td>
+<td>100</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">review01.enableDisable:funcA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">review01.Assertions:hardAssertions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">class01.Priority:ABTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">class01.Priority:BTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">review01.Annotation:testA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">class01.EnableDisable:BTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">class01.TestNgExample:verifyThatUserCanLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">review01.DataDrivenTesting:randomTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">class01.Priority:CTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">review01.Annotation:testB</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">review01.priority:C</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">review01.DataDrivenTesting:randomTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">review01.priority:A</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">review01.enableDisable:funcB</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">review01.annotation2:TestC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">review01.DataDrivenTesting:randomTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>343</td>
+<td>1e3</td>
+<td>34</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">class01.Assertions:VerifyTheErrorMessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">review01.annotation2:TestD</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">review01.priority:B</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">review01.Assertions:softAssert</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">class01.Annotations:AFirstTestCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">class01.Annotations:BSecondTestCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">review01.priority:D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">class01.TestNgExample:verifyPasswordBoxIsThere</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">class01.Priority:ATest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
